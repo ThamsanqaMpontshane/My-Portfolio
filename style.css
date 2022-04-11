@@ -1,0 +1,173 @@
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MAIN>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(mainimg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #D7FCD4;
+}
+
+.section2 {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #D7FCD4;
+}
+
+.part1 {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<TEXT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+hr{
+    width: 70%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 56px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 900;
+    color: white;
+    padding: 0 0 0 10%;
+    line-height: 1.7;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.7;
+    width: 60%;
+    margin: 0 20%;
+    /* padding: 45px 0 0 0; */
+    margin-top: 20px;
+
+}
+strong{
+    color: #e85d04;
+    font-weight: bold;
+}
+h3 {
+    font-size: 17px;
+    font-family: 'Bodoni Moda', serif;
+    margin: 0 40%;
+    padding: 5% 0 5% 0;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<IMAGES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.section1>img {
+    width: 350px;
+    margin-left: 460px;
+}
+
+.website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e85d04;
+    width: 40%;
+    height: 100%;
+}
+.a1 {
+    font-size: 26px;
+    text-decoration: none;
+    color:white;
+}
+.a2{
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<OTHER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.box {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: red; */
+    
+}
+html{
+    background-color: #D7FCD4;
+}
+.box1 {
+    /* background-color: blue; */
+    display: flex;
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid black; */
+}
+.box3 {
+    flex-direction: row-reverse;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ANIMATIONS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+/* Container for skill bars */
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    background-color: #04AA6D;
+    color: black;
+}
+
+.css {
+    background-color: #2196F3;
+    color: black;
+}
+
+.js {
+    background-color: #f44336;
+    color: black;
+}
+
+.box2 {
+    width: 50%;
+    margin: 0 5% 0 5%;
+}
+.html1{
+ width: 59.5%;
+}
+.css1{
+ width: 40.5%;
+}
+.js1{
+ width: 0%;
+}
+.html2{
+ width: 50%;
+}
+.css2{
+ width: 50%;
+}
+.js2{
+width: 0%;
+}
