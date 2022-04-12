@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.main {
+    height: 100vh;
+    background-image: url(mainimg1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+h1{
+    font-size: 68px;
+    color: white;
+    font-weight: bold;
+}
+
+.main > p {
+    /* justify-self: flex-end; */
+    font-size: 18px;
+    color: white;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: #D7FCD4;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /* gap: 30px; */
+}
+.box1{
+    margin-top: 40px;
+    /* background-color: red; */
+    width: 540px;
+    height: 80%;
+    border-right: 2px solid black;
+}
+.box2{
+    margin-top: 40px;
+    /* background-color: blue; */
+    width: 540px;
+    height: 80%;
+    border-left: 2px solid black;
+}
+h2{
+    text-align: center;
+    /* border-bottom: 1px double black; */
+    border-width: 10px;
+}
+hr {
+    /* border: 3px double black; */
+    background-color: black;
+    width: 70%;
+    margin: 4px 15% 0 15%;
+    color: black;
+    height: 2px;
+}
+ /* p {
+   margin-top: 2%;
+   margin-left: 16%;
+   width: 70%;
+   color: red;
+} */
+.web1{
+    margin: 0 auto;
+}
+.container {
+    margin: 5% 20% 0 20%;
+    width: 60%;
+    background-color: #C5BAAF;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    background-color: #04AA6D;
+    color: black;
+}
+
+.css {
+    background-color: #2196F3;
+    color: black;
+}
+
+.js {
+    background-color: #f44336;
+    color: black;
+}
+
+.html1{
+ width: 57.4%;
+}
+.css1{
+ width: 42.6%;
+}
+.js1{
+ width: 0%;
+}
+.html2{
+ width: 60.1%;
+}
+.css2{
+ width: 39.9%;
+}
+.js2{
+width: 0%;
+}
+.p3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.p2{
+    width:70%;
+    margin: 0 15% 3% 15%;
+}
