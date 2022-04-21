@@ -125,7 +125,7 @@ h3 {
     text-decoration: none;
     color: white;
 }
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<OTHER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<color: #f4433<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<OTHER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .box {
     height: 100vh;
     display: flex;
@@ -152,7 +152,7 @@ html{
 /* Container for skill bars */
 .container {
     width: 100%;
-    background-color: #ddd;
+    background-color: red;
 }
 
 .skills {
@@ -176,6 +176,7 @@ html{
     background-.box1{
     background-color: red;
 }
+
 .box2{
     background-color: blue;
 }color: #f44336;
@@ -212,6 +213,7 @@ width: 0%;
     display:flex;
     justify-content: center;
     align-items: center;
+    animation: slideInLeft 14s;
 }
 .boxed2{
     border: 2px solid #80b918;
@@ -220,6 +222,7 @@ width: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: slideInRight 14s;
 }
 
 .boxed1 > a {
@@ -230,3 +233,18 @@ width: 0%;
     color: #80b918;
     font-size: 30px;
 }
+
+/* .list-item hover */
+.list-item:hover {
+    border: 2px solid whitesmoke;
+    color: white;
+}
+/* .spa text hover */
+/* change the size of individual letters on hover */
+.spa:hover {
+    /* underline */
+    text-decoration: underline;
+    font-size: 70px;
+}
+
+
