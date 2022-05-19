@@ -21,9 +21,11 @@
     margin-top: 15px;
     list-style: none ;
 }
+
 li{
     list-style: none;
 }
+
 li > a {
     text-decoration: none;
     font-size: 22px;
@@ -172,17 +174,18 @@ html{
     color: black;
 }
 
+.box1{
+    background-color: #f44336;
+}
+
 .js {
-    background-.box1{
     background-color: red;
+    color: black;
 }
 
 .box2{
     background-color: blue;
-}color: #f44336;
-    color: black;
-
-
+}
 .box2 {
     width: 50%;
     margin: 0 5% 0 5%;
@@ -229,6 +232,7 @@ width: 0%;
     color: green;
     font-size: 30px;
 }
+
 .boxed2 > a {
     color: #80b918;
     font-size: 30px;
@@ -246,5 +250,6 @@ width: 0%;
     text-decoration: underline;
     font-size: 70px;
 }
-
-
+@media only screen and (max-width: 425px){
+	
+}
