@@ -57,6 +57,12 @@ h2{
     /* border-bottom: 1px double black; */
     border-width: 10px;
 }
+/* h2 hover increase font size */
+h2:hover{
+    font-size: 30px;
+}
+
+
 hr {
     /* border: 3px double black; */
     background-color: black;
@@ -88,17 +94,17 @@ hr {
 }
 
 .html {
-    background-color: #04AA6D;
+    background-color: #23CE6B;
     color: black;
 }
 
 .css {
-    background-color: #2196F3;
+    background-color: #8ecae6;
     color: black;
 }
 
 .js {
-    background-color: #f44336;
+    background-color: #F1AB86;
     color: black;
 }
 
@@ -119,6 +125,42 @@ hr {
 }
 .js2{
 width: 0%;
+}
+.html3{
+ width: 35.8%;
+}
+.css3{
+ width: 2.7%;
+}
+.js3{
+width: 64.5%;
+}
+.html4{
+ width: 23.1%;
+}
+.css4{
+ width: 6.2%;
+}
+.js4{
+width: 70.7%;
+}
+.html5{
+ width: 10% ;
+}
+.css5{
+ width:20%;
+}
+.js5{
+width:40%;
+}
+.html6{
+ width: 60.1%; ;
+}
+.css6{
+ width:73% ;
+}
+.js6{
+width: 21%;
 }
 .p3{
     color: black;

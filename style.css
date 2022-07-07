@@ -227,6 +227,15 @@ width: 0%;
     align-items: center;
     animation: slideInRight 14s;
 }
+.boxed3{
+    border: 2px solid green;
+    width: 620px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideInLeft 14s;
+}
 
 .boxed1 > a {
     color: green;
@@ -235,6 +244,10 @@ width: 0%;
 
 .boxed2 > a {
     color: #80b918;
+    font-size: 30px;
+}
+.boxed3 > a {
+    color: green;
     font-size: 30px;
 }
 
