@@ -8,7 +8,7 @@ a{
 }
 .main {
     height: 100vh;
-    background-image: url(mainimg1.jpg);
+    background-image: url(../IMAGES/mainimg1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
